@@ -4,7 +4,7 @@ library(shiny)
 shinyUI(fluidPage(
   
   # Application title
-  titlePanel("What is a prime number?"),
+  titlePanel("Is it a prime number?"),
   
   # Sidebar with a slider input for the number of bins
   sidebarLayout(
@@ -24,7 +24,9 @@ shinyUI(fluidPage(
       p("Was your number ",strong(textOutput("inputNum",inline =TRUE))," a prime number?"),
       strong(textOutput("result")),
       br(),
-      p(textOutput("errorMessage"))
+      p(textOutput("errorMessage")),
+      p("Please find the corresponding code for this project at:"),
+      a("Github repository containing the code",href="https://github.com/geertendoornenbal/developingdataproducts")
       )
     )
   )
