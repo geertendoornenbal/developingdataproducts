@@ -1,4 +1,4 @@
-Prime Pitch
+Is it a prime number?
 ========================================================
 author: Geerten Doornenbal
 date: 28-01-2016
@@ -17,6 +17,7 @@ Usage
 ========================================================
 
 The app can be accessed at any time at:
+
 https://geertendoornenbal.shinyapps.io/developingdataproducts/
 
 One simply inserts any integral number, press the submit button, and voila:
@@ -54,3 +55,5 @@ So from now on, if you ever feel the need of testing a number for being prime or
 Use our marvelous app:
 ## "Is it a prime number?"
 
+
+https://geertendoornenbal.shinyapps.io/developingdataproducts/
